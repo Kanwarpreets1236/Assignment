@@ -48,7 +48,8 @@ align-items:"center";
 }
 #button
 {
-color:rgb(0,0,0);
+
+background-color:grey;
 }
 </style>
 <body>
@@ -62,6 +63,7 @@ color:rgb(0,0,0);
       <input type="text" placeholder="" name="search" >
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
+    <br>
 <button id="button" class="btn">Google Search</button>
 <button id="button" class="btn">I'm Feeling Lucky</button>
  </div>
